@@ -1,0 +1,7 @@
+/* General */
+tags
+.node-version
+/* Elm Stuffz */
+elm-stuff/
+repl-temp-*
+dist/**/*
