@@ -1,3 +1,5 @@
 #!/bin/sh
 
+[ -d ./dist ] && echo "Building elm.js" || mkdir ./dist
+
 elm-live src/Main.elm --output=dist/elm.js
